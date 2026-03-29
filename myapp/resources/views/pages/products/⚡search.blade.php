@@ -7,7 +7,7 @@ new class extends Component
 {
     public string $search = '';
 
-    #[Computed]
+    #[Livewire\Attributes\Computed]
     public function results()
     {
 
